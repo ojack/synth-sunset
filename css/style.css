@@ -7,4 +7,4 @@ a {
   color: #00B7FF;
 }
 
-  html, body { height: 100%; margin: 0; padding: 0; background-color: "rgb(16, 255, 207)";}
+  html, body { height: 100%; margin: 0; padding: 0; background-color: "rgb(16, 255, 207)"; cursor: crosshair;}
