@@ -11,7 +11,7 @@ window.onload = function(){
 function init(){
   log("init");
   ongoingTouches = new Array();
-  backgroundColor = "rgba(255, 255, 255, 0.1)";
+  
   touchObject = {};
    canvas = document.createElement("canvas");
    canvas.width = window.innerWidth;
@@ -20,6 +20,11 @@ function init(){
    canvas.style.top = "0px";
    canvas.style.left = "0px";
    ctx = canvas.getContext('2d');
+  
+    backgroundColor = "rgba(242, 35, 12, 0.1)";
+
+   ctx.fillStyle = "rgb(16, 255, 207)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
    //ctx.globalCompositeOperation = "exclusion";
     audioCtx = new window.AudioContext();
       // create empty buffer

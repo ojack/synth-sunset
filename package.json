@@ -8,7 +8,6 @@
     "watch": "watchify -v -d -t [ babelify --presets [ es2015] ] main.js -o js/bundle.js & node app.js",
     "start": "node app.js"
   },
-
   "devDependencies": {
     "babel": "^5.8.21",
     "babel-eslint": "^4.0.10",
@@ -17,5 +16,8 @@
     "browserify": "^13.0.0",
     "eslint": "^1.1.0",
     "nodemon": "^1.4.1"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
   }
 }
